@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="catImg"><div class="txtfirs">Lorem Ipsum is simply</div><div class="txtsecond">Lorem Ipsum is simply</div></div>
+    <div class="main">
+        <div class="welcome">Welcome to lorem..!</div>
+        <div id="Switch" class="Switch">
+            <button id="loginSwitch" class="loginSwitch active">Login</button>
+            <button id="RegisterSwitch" class="RegisterSwitch">Register</button>
+        </div>
+        <div class="loremText">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        <div class="inputForm">
+            <form id="form" action="./login.html" method="post">
+            <div id="email" class="emaiil hide">
+            <div class="spanEmail">Email Address</div>
+            <input class="inputEmail" type="email" name='name' placeholder="Enter your Email Address"></div>
+            <div class="spanUsername">User name</div>
+            <input class="inputUsername" type="text" name='name' placeholder="Enter your User name">
+            <div class="spanPsw">Password</div>
+            <!-- <div class="psw">
+            <input class="inputPsw" id="password-input" type="password" placeholder="Enter your Password">
+            <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+            </div> -->
+            <div class="password">
+                <input type="password" id="password-input" placeholder="Enter your Password" name="password">
+                <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+            </div>
+            <div class="rightf">
+            <div  class="fargotPsw"><a id="frgpsw"  href="#">Forgot Password ?</a></div>
+            <button id="logbutton" class="loginButton">Login</button>
+            <button id="regbutton" class="registerButton hide">Register</button>
+        </div></form>
+            <!-- <button class="loginButton">Login</button> -->
+        </div></div>
+</body>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</html>

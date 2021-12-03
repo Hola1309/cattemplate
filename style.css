@@ -1,0 +1,418 @@
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url("assets/fonts/Poppins-ExtraLight.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("assets/fonts/Poppins-SemiBold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Poppins-Light;
+    src: url("assets/fonts/Poppins-Light.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    font-family: Poppins-Light;
+}
+.catImg{
+    margin-top: 38px;
+    margin-left: 41px;
+    width: 737px;
+    height: 825px;
+    left: 41px;
+    top: 38px;
+    border-radius: 29px;
+    background-image: url(./assets/Cat.png);
+}
+.txtfirs{
+    position: absolute;
+    width: 435px;
+    height: 56px;
+    left: 110px;
+    top: 709px;
+    color: white;
+    font-family: Poppins-SemiBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 55px;
+}
+.txtsecond{
+    position: absolute;
+    width: 301px;
+    height: 38px;
+    left: 110px;
+    top: 770px;
+    color: white;
+    font-family: Poppins-ExtraLight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+}
+.Switch{
+    position: absolute;
+    width: 329px;
+    height: 59px;
+    left: 942px;
+    top: 193px;
+
+    background: #F8EDDD;
+    border-radius: 33px;
+}
+.loginSwitch{
+    font-family: Poppins-Light;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    width: 146px;
+    height: 40px;
+    left: 13px;
+    top: 10px;
+    text-align:center;
+    vertical-align:center;
+    border: 0;
+    background: #F8EDDD;
+    color: #9E896A;
+    border-radius: 33px;
+}
+.RegisterSwitch{
+    font-family: Poppins-Light;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    width: 146px;
+    height: 40px;
+    left: 171px;
+    top: 10px;
+    text-align:center;
+    vertical-align:center;
+    border: 0;
+    background: #F8EDDD;
+    color: #9E896A;
+    border-radius: 33px;
+}
+.welcome{
+    position: absolute;
+    width: 158px;
+    height: 24px;
+    left: 1028px;
+    top: 145px;
+    
+    font-family: Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;   
+    
+    color: #000000;
+    
+}
+.loremText{
+    position: absolute;
+    width: 454px;
+    height: 49px;
+    left: 889px;
+    top: 304px;
+
+    font-family: Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #5B5B5B;
+}
+.spanUsername{
+    width: 87px;
+    height: 24px;
+    left: 889px;
+    top: 395px;
+    margin-top: 30px;
+    font-family: Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.inputUsername{
+    font-family: Poppins-Light;
+    
+    margin-top: 12px;
+
+    width: 435px;
+    height: 54px;
+    left: 889px;
+    top: 431px;
+
+    background: #FFFFFF;
+    border: 1px solid #9E896A;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding-left: 24px;
+}
+::placeholder {
+    font-family: Poppins-Light;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+
+color: #ACACAC;
+  }
+.spanPsw{
+    width: 78px;
+    height: 24px;
+    left: 889px;
+    top: 515px;
+    margin-top: 30px;
+    font-family: Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;    
+    
+    color: #000000;
+}
+.inputPsw{
+    font-family: Poppins-Light;
+    width: 435px;
+    height: 54px;
+    left: 889px;
+    top: 551px;
+    margin-top: 12px;
+    background: #FFFFFF;
+    border: 1px solid #9E896A;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding-left: 24px;
+}
+
+.fargotPsw{
+    border: 0;
+height: 18px;
+left: 1213px;
+top: 627px;
+margin-right: 24px;
+    margin-top: 22px;
+font-family: Poppins-Light;
+
+margin-left: 97px;
+
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.loginButton{
+    border: 0;
+    margin-top: 55px;
+    font-family: Poppins-Light;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 232px;
+    height: 49px;
+    left: 1092px;
+    top: 707px;
+    margin-right: 19px;
+    background: #9E896A;
+    border-radius: 36px;
+}
+.loginButton:hover{
+
+    background: #553E19;
+}
+.password-control {
+    position: absolute;
+    top: 173px;
+    left: 389px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+.active{
+    background: #9E896A;
+    color: #FFFFFF;
+}
+.hide {
+    display: none;
+}
+.inputForm{
+    position: absolute;
+width: 454px;
+height: 424px;
+left: 889px;
+top: 363px;
+}
+.rightf{
+    float: right;
+}
+.spanEmail{
+    font-family: Poppins-Light;
+    width: 112px;
+height: 24px;
+font-size: 16px;
+line-height: 24px;
+margin-top: 30px;
+}
+.inputEmail{
+    padding-left: 24px;
+    margin-top: 12px;
+    width: 435px;
+height: 54px;
+background: #FFFFFF;
+border: 1px solid #9E896A;
+box-sizing: border-box;
+border-radius: 40px;
+}
+.password {
+	position: relative;
+}
+#password-input {
+	width: 435px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #9E896A;
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-family: Poppins-Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 24px;
+    line-height: 22px;
+    
+    font-family: Poppins-Light;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 22px;
+}
+.password-control {
+	position: absolute;
+	top: 17px;
+	right: 6px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+.password{
+    
+    margin-top: 12px;
+
+}
+.registerButton{
+    border: 0;
+    margin-top: 55px;
+    font-family: Poppins-Light;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 232px;
+    height: 49px;
+    left: 1092px;
+    top: 707px;
+    margin-right: 19px;
+    background: #9E896A;
+    border-radius: 36px;
+}
+.registerButton:hover{
+
+    background: #553E19;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.main{
+    width: 454px;
+height: 674px;
+}
+@media screen and (max-width: 768px) {
+.catImg{
+    display: none;
+}
+.welcome{
+    position: absolute;
+    width: 160.43px;
+    height: 24px;
+    left: 108.17px;
+    top: 133px;
+    
+    font-family: Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+.Switch{
+    position: absolute;
+width: 315px;
+height: 59px;
+left: 26px;
+top: 181px;
+
+background: #F8EDDD;
+border-radius: 33px;
+}
+.loremText{
+    position: absolute;
+width: 331px;
+height: 49px;
+left: 26px;
+top: 292px;
+
+font-family: Poppins-Light;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #5B5B5B;
+}
+.inputForm{
+    position: absolute;
+width: 331px;
+height: 361px;
+left: 26px;
+top: 383px;
+
+}
+.inputEmail{
+    width: 317.15px;
+}
+.inputUsername{
+    width: 317.15px;
+}
+#password-input{
+    width: 317.15px;
+}
+.password-control{
+    left: 280px;
+}
+.main{
+    width: auto;
+}
+}
