@@ -6,6 +6,8 @@ const Frgpsw = document.getElementById('frgpsw')
 const Logbutton = document.getElementById('logbutton')
 const Regbutton = document.getElementById('regbutton')
 const Form = document.getElementById('form')
+const input = document.getElementById('password-input');
+const emailInput = document.getElementById('emailInput')
 
 loginSwitch.addEventListener('click', (event) => {
     if (loginSwitch.className == 'loginSwitch') {
@@ -16,6 +18,8 @@ loginSwitch.addEventListener('click', (event) => {
         Regbutton.className = 'registerButton hide'
         Logbutton.className = 'loginButton'
         Form.action = "./login.html"
+        input.value = ''
+        emailInput.required = false
     }
 })
 RegisterSwitch.addEventListener('click', (event) => {
@@ -27,15 +31,12 @@ RegisterSwitch.addEventListener('click', (event) => {
         Regbutton.className = 'registerButton'
         Logbutton.className = 'loginButton hide'
         Form.action = "./register.html"
+        input.value = ''
+        emailInput.required = true
     }
 })
 
-Logbutton.addEventListener('click', (event) => {
-    console.log('qeq')
-})
-
 function show_hide_password(target) {
-    var input = document.getElementById('password-input');
     if (input.getAttribute('type') == 'password') {
         target.classList.add('view');
         input.setAttribute('type', 'text');

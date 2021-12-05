@@ -25,7 +25,7 @@ body {
 
 .catImg {
     margin-top: 38px;
-    margin-left: 41px;
+    margin-right: 111px;
     width: 737px;
     height: 825px;
     left: 41px;
@@ -35,9 +35,8 @@ body {
 }
 
 .txtfirs {
-    position: absolute;
-    width: 435px;
-    height: 56px;
+    margin-top: 671px;
+    margin-left: 69px;
     left: 110px;
     top: 709px;
     color: white;
@@ -49,9 +48,7 @@ body {
 }
 
 .txtsecond {
-    position: absolute;
-    width: 301px;
-    height: 38px;
+    margin-left: 69px;
     left: 110px;
     top: 770px;
     color: white;
@@ -63,11 +60,15 @@ body {
 }
 
 .Switch {
-    position: absolute;
     width: 329px;
+    margin-top: 24px;
     height: 59px;
     left: 942px;
     top: 193px;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 
     background: #F8EDDD;
     border-radius: 33px;
@@ -75,9 +76,12 @@ body {
 
 .loginSwitch {
     font-family: Poppins-Light;
+
+    margin-right: 6px;
+    margin-top: 10px;
+
     font-size: 16px;
     line-height: 24px;
-    position: absolute;
     width: 146px;
     height: 40px;
     left: 13px;
@@ -91,10 +95,12 @@ body {
 }
 
 .RegisterSwitch {
+    margin-left: 6px;
+    margin-top: 10px;
+
     font-family: Poppins-Light;
     font-size: 16px;
     line-height: 24px;
-    position: absolute;
     width: 146px;
     height: 40px;
     left: 171px;
@@ -108,11 +114,13 @@ body {
 }
 
 .welcome {
-    position: absolute;
     width: 158px;
     height: 24px;
     left: 1028px;
     top: 145px;
+
+    margin-left: auto;
+    margin-right: auto;
 
     font-family: Poppins-Light;
     font-style: normal;
@@ -125,12 +133,11 @@ body {
 }
 
 .loremText {
-    position: absolute;
     width: 454px;
     height: 49px;
     left: 889px;
     top: 304px;
-
+    margin-top: 52px;
     font-family: Poppins-Light;
     font-style: normal;
     font-weight: normal;
@@ -275,7 +282,6 @@ body {
 }
 
 .inputForm {
-    position: absolute;
     width: 454px;
     height: 424px;
     left: 889px;
@@ -378,17 +384,26 @@ a {
 }
 
 .main {
+
+    margin-top: 145px;
+
     width: 454px;
     height: 674px;
 }
 
-@media screen and (max-width: 768px) {
+.wrapper {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
     .catImg {
         display: none;
     }
 
     .welcome {
-        position: absolute;
         width: 160.43px;
         height: 24px;
         left: 108.17px;
@@ -406,7 +421,6 @@ a {
     }
 
     .Switch {
-        position: absolute;
         width: 315px;
         height: 59px;
         left: 26px;
@@ -417,7 +431,6 @@ a {
     }
 
     .loremText {
-        position: absolute;
         width: 331px;
         height: 49px;
         left: 26px;
@@ -433,7 +446,6 @@ a {
     }
 
     .inputForm {
-        position: absolute;
         width: 331px;
         height: 361px;
         left: 26px;
